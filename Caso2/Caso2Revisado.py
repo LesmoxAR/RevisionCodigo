@@ -1,12 +1,12 @@
-def calcular(a, b, c):
-    res = a * b + c
-    return res
+def sumarTerminos(a, b, c):
+    suma = a + b + c
+    return suma
 
-def principal():
-    x = 5
-    y = 3
-    z = 7
-    resultado = calcular(x, y, z)
+def main():
+    a = float(input("Ingrese el primer termino: "))
+    b = float(input("Ingrese el segundo termino: "))
+    c = float(input("Ingrese el tercer termino: "))
+    resultado = sumarTerminos(a, b, c)
     print("El resultado es:", resultado)
 
-principal()
+main()
